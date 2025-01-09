@@ -1,0 +1,42 @@
+# Ignorar executáveis gerados
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignorar arquivos objeto
+*.o
+*.obj
+
+# Ignorar arquivos de build intermediários
+*.a
+*.lib
+*.pdb
+*.class
+
+# Ignorar diretórios de build
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Ignorar arquivos de log e temporários
+*.log
+*.tmp
+*.cache
+
+# Ignorar arquivos específicos de IDEs (exemplo: Visual Studio, CodeBlocks, etc.)
+*.vcxproj
+*.vcxproj.filters
+*.code-workspace
+*.sln
+*.user
+*.ncb
+*.suo
+*.cbp
+
+# Ignorar arquivos gerados pelo sistema
+.DS_Store
+Thumbs.db
+
